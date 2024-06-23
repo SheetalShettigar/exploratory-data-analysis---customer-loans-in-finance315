@@ -29,13 +29,13 @@ class RDSDatabaseConnector:
         return data
     
     def data_to_csv(self,data):
-        #print(data.shape())
+        #print(data.shape)
         data.to_csv('loan_payments.csv')
         return
 
     def read_data_from_csv(self):
         df = pd.read_csv('loan_payments.csv')
-        df.shape()
+        #print(df.shape)
         return 
     
 
