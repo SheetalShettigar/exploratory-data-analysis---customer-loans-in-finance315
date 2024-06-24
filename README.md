@@ -1,12 +1,15 @@
-Project Title: Exploratory Data Analysis - Customer Loans in Finance
- To perform exploratory data analysis on the loan portfolio, using various statistical and data visualisation techniques to uncover patterns, relationships, and anomalies in the loan data.
-Table of Contents:
-Project Description
-Installation instructions
-Usage instructions
-File structure of the project
-License information
-Project Description
+# Project Title: Exploratory Data Analysis - Customer Loans in Finance
+
+To perform exploratory data analysis on the loan portfolio, using various statistical and data visualisation techniques to uncover patterns, relationships, and anomalies in the loan data.
+
+## Table of Contents:
+1. Project Description
+1. Installation instructions
+1. Usage instructions
+1. File structure of the project
+1. License information
+   
+## Project Description
 
 Is to perform exploratory data analysis on the loan portfolio, using various statistical and data visualisation techniques to uncover patterns, relationships, and 
 anomalies in the loan data. 
@@ -16,13 +19,13 @@ The aim is to gain a deeper understanding of the risk and return associated with
 
 Ultimate goal is to improve the performance and profitability of the loan portfolio,
 
-Installation instructions
-Usage instructions
+## Installation instructions
+## Usage instructions
 
 
-File structure of the project
+## File structure of the project
 
 
 
 
-License information
+## License information
