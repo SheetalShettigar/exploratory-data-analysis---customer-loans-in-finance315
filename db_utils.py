@@ -49,10 +49,10 @@ if __name__ == "__main__":
 
     try:
         engine_connection = RDSConnectors.get_connection()
-        print("connection to  successful")
+        print(" Database connection successful")
 
     except:
-        print("connection not successful")
+        print("Database connection not successful")
 
     data_frame = RDSConnectors.read_data(engine_connection) 
 
