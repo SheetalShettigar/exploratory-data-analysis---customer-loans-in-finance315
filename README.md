@@ -7,7 +7,6 @@ To perform exploratory data analysis on the loan portfolio, using various statis
 1. Installation instructions
 1. Usage instructions
 1. File structure of the project
-1. License information
    
 ## Project Description
 
@@ -20,8 +19,8 @@ The aim is to gain a deeper understanding of the risk and return associated with
 Ultimate goal is to improve the performance and profitability of the loan portfolio,
 
 ## Python Files
-db_utils.py
-data_transform.py
+###db_utils.py
+###data_transform.py
 ## Usage instructions
 Run db_utils.py to establish connection with the database. To read the data from loan_payments table into  a csv file.
 Load the data into the panadas dataframe for analyisis.
