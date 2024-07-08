@@ -19,13 +19,34 @@ The aim is to gain a deeper understanding of the risk and return associated with
 
 Ultimate goal is to improve the performance and profitability of the loan portfolio,
 
-## Installation instructions
+## Python Files
+db_utils.py
+data_transform.py
 ## Usage instructions
+Run db_utils.py to establish connection with the database. To read the data from loan_payments table into  a csv file.
+Load the data into the panadas dataframe for analyisis.
 
+For EDA analysis of the loan payments file run the data_transform.py file 
 
 ## File structure of the project
+###db_utils.py
+class RDSDatabaseConnector
+methods:
+get_connection() returns engine connection
+read_data(engine_connection) returns dataframe
+data_to_csv(data) 
+
+###data_transform.py
+Class DataTransform
+methods:
+check_data()
+transform_data()
+check_outliers()
+check_skew()
+check_colinearity()
+percentage_recovered()
+loss_to_company()
+loss_indicators()
 
 
 
-
-## License information
