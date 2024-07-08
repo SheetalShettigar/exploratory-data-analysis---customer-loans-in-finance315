@@ -46,9 +46,10 @@ data_to_csv(data)
 
 data_transform.py
 
-Class DataTransform
+class DataTransform
 
-##### methods:
+methods:
+
 check_data()
 
 transform_data()
