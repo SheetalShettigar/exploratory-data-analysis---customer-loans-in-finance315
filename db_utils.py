@@ -35,7 +35,7 @@ class RDSDatabaseConnector:
 
     def read_data_from_csv(self):
         df = pd.read_csv('loan_payments.csv')
-        #print(df.shape)
+        print(df.shape)
         return 
     
 
